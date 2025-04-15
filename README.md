@@ -26,12 +26,12 @@ git clone https://github.com/abdhullah200/spotify-clone.git
 cd spotify-clone
 ```
 
-###2. Install dependencies
+### 2. Install dependencies
 ```bash
 npm install
 ```
 
-###3. Run the app
+### 3. Run the app
 ```bash
 npm start
 ```
