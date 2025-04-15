@@ -2,16 +2,19 @@ import React from 'react'
 import './trendingCard.css'
 import { TrendingCardData } from '../../config/congif'
 
-const TrendingCard = () => {
+const TrendingCard = ({setCurrentPage, setCurrentEle}) => {
 
   return (
     <>
       <div className='trendingCardMainContainer' >
         {
-          TrendingCardData.map((ele) => {
+          TrendingCardData.map((ele, id) => {
             return (
               <>
-                <div className="cardContainer">
+                <div key={id} onClick={()=>{
+                  setCurrentPage("musicSpecificPage")
+                  setCurrentEle(ele)
+                }} className="cardContainer">
                   <img src={ele.imgSrc} alt="" />
                   <div className="CardTextContainer">
                   <h2>{ele.heading}</h2>
