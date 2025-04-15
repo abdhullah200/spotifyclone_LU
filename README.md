@@ -16,6 +16,10 @@ A sleek and responsive Spotify Clone built using **React**. Stream your favorite
 
 ## 📸 Screenshots
 
+![image](https://github.com/user-attachments/assets/8620d932-e519-4b92-b810-1c132df6b593)
+
+![image](https://github.com/user-attachments/assets/1d3969f0-229d-4491-96c2-5e7a59885845)
+
 
 
 ## 📦 Getting Started
