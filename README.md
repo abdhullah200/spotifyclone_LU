@@ -10,9 +10,7 @@ A sleek and responsive Spotify Clone built using **React**. Stream your favorite
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, CSS/SCSS (or Tailwind if used)
-- **State Management**: useState, useEffect, Context API / Redux (if used)
-- **API**: Spotify Web API / mock data (customize based on your app)
+- **Frontend**: React, CSS/SCSS TailwindCSS
 
 ## 📸 Screenshots
 
